@@ -105,12 +105,12 @@ h1::after {
 
 #page1 {
     left: 0;
-    animation: page1Anim 1.3s ease 6s;
+    animation: page1Anim 1.3s ease 9s forwards;
 }
 
 #page2 {
     left: 100%;
-    animation: page2Anim 1.3s ease 6s;
+    animation: page2Anim 1.3s ease 9s forwards;
 }
 
 @keyframes page1Anim {
