@@ -93,6 +93,14 @@
   }
 
   .page {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: var(--bg-color);
+    overflow: scroll;
       width: 100vw;
       height: 100vh;
   }
