@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -100,7 +101,6 @@ h1::after {
     text-align: center;
     background: var(--bg-color);
     width: 100vw;
-    overflow: hidden;
     height: 100vh;
 }
 
