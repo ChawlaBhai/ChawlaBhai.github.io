@@ -186,6 +186,15 @@ li p {
 }
 
 @media (max-width: 500px) {
+    #page2 h2 {
+      height: 20vh;
+      position: absolute;
+      top: 11vh;
+      margin: 39px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 63px;
+      font-weight: lighter;
+    }
     li a {
       text-decoration: none;
       font-weight: bolder;
@@ -202,5 +211,20 @@ li p {
        word-wrap: normal;
        margin: 0rem 1.3rem;
     }
+    
+li {
+    background: linear-gradient( to bottom, rgb(253, 36, 72), rgb(255, 133, 154));
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    position: absolute;
+    bottom: 11vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 }
